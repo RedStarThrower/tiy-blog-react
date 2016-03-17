@@ -127,3 +127,139 @@ body {
 /**
  * App code
  */
+ .header-container {
+    width: 100%;
+        #skyline {
+            width: 100%;
+            margin-top: -10%;
+        }
+        #circle-logo {
+            width: 8%;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: relative;
+            left: 14%;
+            margin-top: -4%;
+        }
+ }
+
+ .searchEl-container {
+    font-size: 16px;
+    color: grey;
+    display: inline-block;
+    position: relative;
+    width: 280px;
+    padding: 4px;
+    vertical-align: top;
+    left: 20%;
+        #search-title {
+            color: black;
+            font-weight: bold;
+            margin: 0;
+        }
+        #happenings {
+            margin-top: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid grey;
+        }
+        input {
+            width: 273px;
+            padding: 6px;
+            line-height: 20px;
+        }
+ }
+
+ .articleEl-container {
+    font-size: 16px;
+    color: grey;
+    display: inline-block;
+    position: relative;
+    width: 570px;
+    padding: 1px;
+    vertical-align: top;
+    right: -22%;
+        .article-title {
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 0;
+            line-height: 40px;
+        }
+        .article-byline {
+            font-style: italic;
+            padding-top: 15px;
+                a {
+                    color: skyblue;
+                }
+        }
+        img {
+            width: 82%;
+            height: 200px;
+        }
+        .article-text {
+            width: 82%;
+            margin-top: 10px;
+        }
+ }
+
+ .follow-container {
+    background-color: white;
+    padding: 0;
+    border-radius: 5%;
+    width: 330px;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    font-weight: bold;
+    color: grey;
+    border: 1px solid grey;
+    font-size: 16px;
+        #never-miss {
+            width: 100%;
+            color: black;
+            padding: 3px;
+            padding-left: 10px;
+            border-bottom: 1px solid grey;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 15%;
+            padding-left: 10px;
+            padding-top: 0;
+            display: inline-block;
+        }
+        #tiyhouston {
+            color: black;
+            padding-left: 10px;
+            margin: 0;
+            display: inline-block;
+            position: relative;
+            vertical-align: top;
+            padding-bottom: 0;
+          }
+        #box-text {
+            position: relative;
+            font-size: 15px;
+            line-height: 10px;
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 27px;
+            margin-left: -80px;
+        }
+        button {
+            position: relative;
+            vertical-align: top;
+            border: none;
+            border-radius: 5%;
+            background-color: #5495BA;
+            color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 5px;
+            margin-left: 10px;
+        }       
+
+ }
+
+
